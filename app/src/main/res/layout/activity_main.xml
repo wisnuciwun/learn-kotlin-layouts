@@ -31,10 +31,11 @@
         android:layout_marginTop="16dp"
         android:text="Benjamin Frengky"
         android:textSize="20dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintStart_toEndOf="@+id/img_avatar"
         app:layout_constraintTop_toBottomOf="@+id/img_banner" />
 
     <ImageView
+        app:layout_constraintCircleRadius="12dp"
         android:id="@+id/imageView5"
         android:layout_width="70dp"
         android:layout_height="70dp"
@@ -43,7 +44,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/img_avatar"
         app:srcCompat="@drawable/camerabutton" />
 
     <ImageView
@@ -71,7 +72,7 @@
         app:srcCompat="@drawable/inboxbutton" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/img_avatar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
